@@ -4,7 +4,7 @@
 }
 
 body {
-    color: rgba(67, 76, 122, 0.493);
+    color: rgba(1, 66, 44, 0.493);
 }
 
 
@@ -29,3 +29,9 @@ h1 {
 #showcase h1{
     font-size: 50px;
 }
+
+#rollbuttin {
+    padding: 1re;
+}
+
+
