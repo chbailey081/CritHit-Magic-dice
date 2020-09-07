@@ -17,6 +17,17 @@ console.log(Math.floor(Math.random() * 4)) + 1;
 console.log(Math.floor(Math.random() * 100)) + 1;
 
 
+const critFail = (1 == 1);
+
+//conditional statemsnt
+function reRoll () {
+
+if (critFail) {}
+
+}
+
+//Display roll result
+//alert("You are " + userAge );
 
 
 
