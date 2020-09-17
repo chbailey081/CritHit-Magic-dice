@@ -1,3 +1,13 @@
+var critFail;
+critFail = 0;
+
+//conditional statemsnt
+//function reRoll () {}
+
+if (critFail == 0 ) {
+    console.log ("zero");
+} 
+
 //Number between 1-20
 console.log(Math.floor(Math.random() * 20)) + 1;
 
@@ -17,21 +27,12 @@ console.log(Math.floor(Math.random() * 4)) + 1;
 console.log(Math.floor(Math.random() * 100)) + 1;
 
 
-const critFail = (1 == 1);
 
-//conditional statemsnt
-function reRoll () {
 
-if (critFail) {}
 
-}
 
 //Display roll result
 //alert("You are " + userAge );
-
-
-
-
 
 
 //let upper = 20
