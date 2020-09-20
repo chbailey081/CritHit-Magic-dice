@@ -2,11 +2,13 @@ var critFail;
 critFail = 0;
 
 //conditional statemsnt
-//function reRoll () {}
+//function reRoll() {
+//    if (critFail == 0 ) {
+//        console.log ("zero");
+//    } 
+//}
 
-if (critFail == 0 ) {
-    console.log ("zero");
-} 
+
 
 //Number between 1-20
 console.log(Math.floor(Math.random() * 20)) + 1;
@@ -27,7 +29,19 @@ console.log(Math.floor(Math.random() * 4)) + 1;
 console.log(Math.floor(Math.random() * 100)) + 1;
 
 
+document.getElementById("disp").addEventListener("click", displayDate);
 
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+
+
+
+
+//var for (let index = 0; index < array.length; index++) {
+//    const element = array[index];
+    
+//}
 
 
 
